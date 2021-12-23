@@ -1,9 +1,9 @@
-import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.118/build/three.module.js';
+import * as THREE from './three.module.js';
 
-import {OrbitControls} from 'https://cdn.jsdelivr.net/npm/three@0.118/examples/jsm/controls/OrbitControls.js';
-import { FirstPersonControls } from "https://cdn.jsdelivr.net/npm/three@0.118/examples/jsm/controls/FirstPersonControls.js";
+import {OrbitControls} from './OrbitControls.js';
+import { FirstPersonControls } from "./FirstPersonControls.js";
 
-import { Clock } from "https://cdn.jsdelivr.net/npm/three@0.118/build/three.module.js";
+import { Clock } from "./three.module.js";
 import { TTFLoader } from "./TTFLoader.js";
 
 // import Proton from "three.proton.js";
